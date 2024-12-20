@@ -1,7 +1,9 @@
 
 /* defininndo variáveis que serão usadas */
 :root{
-  --bg-img: url("./assets/image.jpg")
+  --bg-img: url("./assets/image.jpg");
+  font-family: "Alice", serif;
+  color: #573A37;
 }
 
 body{
@@ -9,6 +11,7 @@ body{
 }
 
 #container{ 
+  
   width: 800px;
   border-radius: 24px;
   background-color: bisque;
@@ -26,8 +29,20 @@ img{
   border-radius: 16px;
 }
 
+h1{
+  line-height: 140%;
+  font-size: 27px;
+}
+
+h2{
+  font-size: 24px;
+}
+
+h1,h2{
+  color: #291B1A;
+}
 main{
-  height: 968px;
+  height: 1068px;
   width: 752px;
 }
 
