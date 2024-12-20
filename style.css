@@ -4,6 +4,8 @@
   --bg-img: url("./assets/image.jpg");
   font-family: "Alice", serif;
   color: #573A37;
+  margin: 0;
+  padding: 0;
 }
 
 body{
@@ -29,21 +31,55 @@ img{
   border-radius: 16px;
 }
 
+main{
+  height: 968px;
+  width: 752px;
+  
+  padding: 24px;
+
+  box-sizing: border-box;
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+#info,#preparation p {
+  margin-top: 0px;
+}
+
+/*p que tem um p anterior recebe isso*/
+#about p+p{
+  margin-top: 12px;
+}
+
 h1{
   line-height: 140%;
   font-size: 27px;
-}
 
+}
+#title {
+  line-height: 150%;
+}
 h2{
-  font-size: 24px;
+  font-size: 24pxg;
 }
 
-h1,h2{
+h1,h2,h4{
   color: #291B1A;
+  margin-bottom: 4px;
+  margin-top: 0px;
 }
-main{
-  height: 1068px;
-  width: 752px;
+
+h3{
+  margin: 10px;
 }
+
+
+ol,ul{
+  margin: 0px;
+  padding-left: 24px;
+}
+
 
 
