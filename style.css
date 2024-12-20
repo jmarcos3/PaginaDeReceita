@@ -17,7 +17,7 @@ body{
   width: 800px;
   border-radius: 24px;
   background-color: bisque;
-  margin: 48px auto; /*centraliza*/
+  margin: 48px auto 28px; /*centraliza*/
   padding: 24px;
 
   /*Faz voltar o padrão da caixa, porque antes tava somando width com padding */
@@ -82,4 +82,9 @@ ol,ul{
 }
 
 
-
+footer{
+  /* color: #F0E8C2; */
+  text-align: center;
+  padding-bottom: 48px;
+  
+}
